@@ -15,4 +15,6 @@ app.get('/api/items', controllers.getItems);
 
 app.post('/api/items/:styleName', controllers.addToBag);
 
-app.listen(PORT);
+app.listen(PORT, () => {
+  console.log(`Style Carousel running on port ${PORT}...`);
+});

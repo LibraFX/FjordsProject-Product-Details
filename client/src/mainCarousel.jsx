@@ -23,7 +23,7 @@ const Slider = styled.span`
   transform: translateX(-${
   (props) => {
     const rotate = 900 * props.index;
-    return rotate - 430;
+    return rotate - 510;
   }
 }px);
 `;

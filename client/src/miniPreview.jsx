@@ -37,6 +37,7 @@ const SizeButton = styled.button`
   border-radius: 50%;
   z-index: 3;
   cursor: pointer;
+  transition: all 0.3s ease;
   &:focus {
     background-color: #f69e83;
     color: solid white;
@@ -44,6 +45,7 @@ const SizeButton = styled.button`
   &:hover {
     background-color: #f69e83;
     color: solid white;
+    transform:scale(1.2);
   }
 `;
 
@@ -83,6 +85,13 @@ const ATB = styled.button`
   font-size: 16px;
   line-height: 16x;
   cursor: pointer;
+  &:focus {
+    background-color: #000;
+  };
+  transition: all 0.3s ease;
+  &:hover {
+    transform:scale(1.1);
+  }
 `;
 
 const MiniPreview = ({ selected, miniNav, clicked, toggleClicked, currentItemCopy }) => {

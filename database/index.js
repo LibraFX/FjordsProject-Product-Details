@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoUri = 'mongodb://localhost/sizes';
+const mongoUri = 'mongodb://database/sizes';
 
 const db = mongoose.connect(mongoUri, {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true,

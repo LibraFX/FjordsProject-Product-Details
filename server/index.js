@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.get('/api/items', controllers.getItems);
 
+//post request not quite functional
 app.post('/api/items/:styleName', controllers.addToBag);
 
 app.listen(PORT, () => {

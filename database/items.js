@@ -16,10 +16,8 @@ const ItemSchema = new mongoose.Schema({
 });
 
 const BagSchema = new mongoose.Schema({
-  bag: [{
-    styleName: String,
-    size: String,
-  }],
+  styleName: String,
+  size: String,
 });
 
 const Items = mongoose.model('Items', ItemSchema);

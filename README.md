@@ -1,6 +1,8 @@
 # Project Name
 FJORDS by LibraFX
 
+## Snapshot
+
 > HackReactors F.E.C. project conducted by team LibraFX: Alex Klyuev, Alex Yu, Samuel Bjorklund, Zachary Cuch.
 Reacretion of Patagonia's Fjord Flannel Jacket item page featuring the selected item carousel, detailed overview, related items, and customer reviews; handled by ZC, AY, AK, and SB respectively.
 Project designed as a non-functional Full-stack application using Node.JS, React, and a simulated Mongo database.

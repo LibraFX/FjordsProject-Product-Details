@@ -14,7 +14,7 @@ const getItems = (req, res) => {
 
 const addToBag = (req, res) => {
   const { styleName } = req.params;
-  db.Bag.save({ styleName })
+  db.Bag.create({ styleName })
     .then((data) => {
       res.status(200).send(data);
     })

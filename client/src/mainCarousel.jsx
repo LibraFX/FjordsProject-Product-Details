@@ -98,7 +98,9 @@ const ArrowRight = styled.div`
 const MainCarousel = ({ name, styles, navRight, navLeft, index, selected }) => (
   <MCWrapper>
     <Prod>{ name }</Prod>
-    <LeftArrowWrapper onClick={navLeft}><ArrowLeft /></LeftArrowWrapper>
+    <LeftArrowWrapper onClick={navLeft}>
+      <ArrowLeft />
+    </LeftArrowWrapper>
     <RightArrowWrapper onClick={navRight}><ArrowRight /></RightArrowWrapper>
     <Row>
       <Slider index={index}>

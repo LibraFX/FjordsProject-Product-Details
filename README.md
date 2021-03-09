@@ -11,9 +11,9 @@ For more detailed information on each product including requirements, instructio
 ## Featured Components
 Component | Developer | Github
 --------- | --------- | ----------
-End-user feedback management | Samuel Bjorklund | https://github.com/Bjorklundsamm
 Product Details | Zachary Cush | https://github.com/mokezonline
 Similar Products | Alex Klyuev | https://github.com/aklu96
+End-user feedback management | Samuel Bjorklund | https://github.com/Bjorklundsamm
 
 ## **Product Details** _(Zachary Cush)_
 Interactive image carousel tasked with displaying all product variations, tracking inventory and assisting end-users with the check-out process. Reference images sourced through Patagonia's select of Men's winter jackets. Front end developed using React, CSS Grid, Node and Express. Tested via Enzyme, ESLint, Jest, FakerJS and Express. For more details regarding libraries and other tools used during development please see direct repository!(https://github.com/LibraFX/style-carousel)
